@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-st.title("Hello Streamlit-er 👋")
+st.title("Hello, Whats Good! 👋")
 st.markdown(
     """ 
     This is a playground for you to try Streamlit and have fun. 
@@ -14,7 +14,7 @@ st.markdown(
     """
 )
 
-for i in range(10):
+for i in range(1, 4):
     st.markdown(i)
     time.sleep(1)
 
