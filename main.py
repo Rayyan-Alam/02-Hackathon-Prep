@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 st.title("Hello Streamlit-er 👋")
 st.markdown(
@@ -12,6 +13,10 @@ st.markdown(
     with Streamlit. 
     """
 )
+
+for i in range(10):
+    st.markdown(i)
+    time.sleep(1)
 
 if st.button("Send balloons!"):
     st.balloons()
